@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ_section_with_collapsible_answers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
+
 <body>
     <!-- Prompt 18  –  14/12//24
 
-Build a FAQ section with collapsible answers using only CSS
- -->
+    Build a FAQ section with collapsible answers using only CSS
+    -->
+    <div class="view">
+        <h1>Frequently asked questions</h1>
+        <ul class="container">
+            <li>
+                <label for="first">What is Web Development?<i class="ri-arrow-down-s-line"></i></label>
+                <input type="radio" name="accomodation" id="first" checked>
+                <div class="content">
+                    <p>It is the process of building websites for the internet. We use many websites like Amazon, Flipkart, Netflix & many more. We will learn the process of designing, building & deploying such websites on the internet.</p>
+                </div>
+            </li>
+            <li>
+                <label for="second">What is MERN Stack in Development?<i class="ri-arrow-down-s-line"></i></label>
+                <input type="radio" name="accomodation" id="second">
+                <div class="content">
+                    <p>MERN stands for MongoDB, Express, React & Node. These are the 4 key technologies that will be covered in the batch. MERN is the most popular stack for web development & choice for today’s web developers.</p>
+                </div>
+            </li>
+            <li>
+                <label for="third">Why should I learn Web Development?<i class="ri-arrow-down-s-line"></i></label>
+                <input type="radio" name="accomodation" id="third">
+                <div class="content">
+                    <p>Almost all tech companies do some kind of development, thus becoming a SKILLED Full Stack Web Developer opens up a lot of jobs for you. Even if you apply for Software Engineering roles, development experience will give you an edge in the selection process.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
 </body>
+
 </html>
